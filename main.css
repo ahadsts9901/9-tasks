@@ -1,0 +1,80 @@
+* {
+    font-family: "Poppins", "sans-serif";
+    font-weight: 800;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2em;
+}
+
+.header {
+    color: #083564;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+i {
+    font-style: normal;
+    color: #f4685c;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 2px dashed #083564;
+    padding: 1em;
+}
+
+.sub {
+    text-align: left;
+    width: 100%;
+    color: #083564;
+}
+
+.input {
+    width: 80%;
+    height: 100%;
+    padding: 0.2em 0.5em;
+    border: 0px;
+    background-color: #eee;
+    color: #083564;
+    font-size: 1.3em;
+    border-left: 6px solid #f4685c;
+}
+
+.button {
+    background-color: #0d86ff;
+    color: #eee;
+    width: 5em;
+    height: 2em;
+    border: 0px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    margin-top: 3em;
+}
+
+.result {
+    width: 80%;
+    height: 100%;
+    padding: 1em 0.5em;
+    border: 0px;
+    background-color: #eee;
+    color: #f4685c;
+    font-size: 1.3em;
+    margin: 0em;
+    border-left: 6px solid #083564;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+    color: #083564;
+}
