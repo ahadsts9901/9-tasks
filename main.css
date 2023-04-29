@@ -47,7 +47,7 @@ section {
     background-color: #eee;
     color: #083564;
     font-size: 1.3em;
-    border-left: 6px solid #f4685c;
+    border-left: 6px solid #083564;
 }
 
 .button {
@@ -67,7 +67,7 @@ section {
     padding: 1em 0.5em;
     border: 0px;
     background-color: #eee;
-    color: #f4685c;
+    color: #083564;
     font-size: 1.3em;
     margin: 0em;
     border-left: 6px solid #083564;
