@@ -48,6 +48,25 @@ section {
     color: #083564;
     font-size: 1.3em;
     border-left: 6px solid #083564;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+select {
+    width: 83%;
+    height: 100%;
+    padding: 0.2em 0.5em;
+    border: 0px;
+    background-color: #eee;
+    color: #083564;
+    font-size: 1em;
+    border-left: 6px solid #083564;
+    margin: 2em 0em 0em 0em;
+    border-radius: 3px;
 }
 
 .button {
@@ -71,6 +90,7 @@ section {
     font-size: 1.3em;
     margin: 0em;
     border-left: 6px solid #083564;
+    border-radius: 3px;
 }
 
 .center {

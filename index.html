@@ -42,7 +42,7 @@
         <h2 class="sub">Task<i> No 1 :</i></h2>
         <p class="sub">Write a function that takes in a number from an input element and displays the factorial of that number in an output element.</p>
         <p class="sub"><i>Enter A Number :</i></p>
-        <input type="number" id="input-1" class="input">
+        <input type="number" id="input-1" class="input" placeholder="Enter A Number">
         <button type="submit" class="button" onclick="factorial()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-1"></p>
@@ -53,7 +53,7 @@
         <h2 class="sub">Task<i> No 2 :</i></h2>
         <p class="sub">Write a function that takes in a string from an input element and displays the same string with all the vowels removed in an output element.</p>
         <p class="sub"><i>Enter Some Text :</i></p>
-        <input type="text" id="input-2" class="input">
+        <input type="text" id="input-2" class="input" placeholder="Text With Vowels">
         <button type="submit" class="button" onclick="removeVowels()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-2"></p>
@@ -64,7 +64,7 @@
         <h2 class="sub">Task<i> No 3 :</i></h2>
         <p class="sub">Write a function that takes in an array of numbers from an input element and displays the largest number in the array in an output element.</p>
         <p class="sub"><i>Enter Numbers With</i> "," Separated:</p>
-        <input type="text" id="input-3" class="input">
+        <input type="text" id="input-3" class="input" placeholder="12, 34, 72">
         <button type="submit" class="button" onclick="largestNumber()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-3"></p>
@@ -75,7 +75,7 @@
         <h2 class="sub">Task<i> No 4 :</i></h2>
         <p class="sub">Write a function that takes in a string from an input element and displays the same string with the first letter of every word capitalized in an output element.</p>
         <p class="sub"><i>Enter Some Text :</i></p>
-        <input type="text" id="input-4" class="input">
+        <input type="text" id="input-4" class="input" placeholder="All Small Letters">
         <button type="submit" class="button" onclick="capitalizeFirstLetter()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-4"></p>
@@ -86,7 +86,7 @@
         <h2 class="sub">Task<i> No 5 :</i></h2>
         <p class="sub">Write a function that takes in an array of numbers from an input element and displays the average of those numbers in an output element.</p>
         <p class="sub"><i>Enter Numbers With</i> "," Separated:</p>
-        <input type="text" id="input-5" class="input">
+        <input type="text" id="input-5" class="input" placeholder="8, 12, 16">
         <button type="submit" class="button" onclick="average()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-5"></p>
@@ -97,7 +97,7 @@
         <h2 class="sub">Task<i> No 6 :</i></h2>
         <p class="sub">Write a function that takes in a string from an input element and displays true if the string is a palindrome and false if it is not in an output element.</p>
         <p class="sub"><i>Enter A Palindrome :</i></p>
-        <input type="text" id="input-6" class="input">
+        <input type="text" id="input-6" class="input" placeholder="Enter A Palindrome">
         <button type="submit" class="button" onclick="palindrome()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-6"></p>
@@ -108,7 +108,7 @@
         <h2 class="sub">Task<i> No 7 :</i></h2>
         <p class="sub">Write a function that takes in an array of strings from an input element and displays a new array with all the strings sorted in alphabetical order in an output element.</p>
         <p class="sub"><i>Enter Strings With</i> "," Separated <i>Also Add</i> "," And Space <i>Before First String :</i></p>
-        <input type="text" id="input-7" class="input">
+        <input type="text" id="input-7" class="input" placeholder=", world, animals">
         <button type="submit" class="button" onclick="sortText()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-7"></p>
@@ -119,7 +119,7 @@
         <h2 class="sub">Task<i> No 8 :</i></h2>
         <p class="sub">Write a function that takes in a number from an input element and displays true if the number is prime and false if it is not in an output element.</p>
         <p class="sub"><i>Enter A Number :</i></p>
-        <input type="number" id="input-8" class="input">
+        <input type="number" id="input-8" class="input" placeholder="Enter A Number">
         <button type="submit" class="button" onclick="primeNumbers()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-8"></p>
@@ -127,11 +127,15 @@
 
     <!-- assignment 9 -->
     <section>
-        <h2 class="sub">Task<i> No 9 :</i> (Under Construction)</h2>
+        <h2 class="sub">Task<i> No 9 :</i></h2>
         <p class="sub">Write a function that takes in an array of objects from an input element and displays a new array with all the objects sorted by a given property in an output element.</p>
-        <p class="sub"><i>Enter Some Text :</i></p>
-        <input type="text" id="input-9" class="input">
-        <button type="submit" class="button">Start</button>
+        <p class="sub"><i>Enter Strings With</i> "," Separated <i>Also Add</i> "," And Space <i>Before First String :</i></p>
+        <input type="text" id="input-9" class="input" placeholder=", world, animals">
+        <select id="property">
+            <option value="Name">Sort By Name</option>
+            <option value="Length">Number Of Strings</option>
+        </select>
+        <button type="submit" class="button" onclick="sortByProperty()">Start</button>
         <p class="sub"><i>Result :</i></p>
         <p class="result" id="result-9"></p>
     </section>
